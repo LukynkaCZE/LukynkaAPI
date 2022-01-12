@@ -1,0 +1,5 @@
+name: LukynkaAPI
+version: '${project.version}'
+main: cz.lukynka.api.Main
+api-version: 1.18
+description: API for Lukynka's Plugins
