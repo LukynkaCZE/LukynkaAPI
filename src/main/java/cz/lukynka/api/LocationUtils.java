@@ -18,7 +18,7 @@ public abstract class LocationUtils {
         } else {
             loc = center.clone().add(new Vector(rx, 0, rz));
         }
-        
+
         return loc;
     }
 
