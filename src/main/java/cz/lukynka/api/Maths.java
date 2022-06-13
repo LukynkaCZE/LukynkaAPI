@@ -8,14 +8,9 @@ import java.util.Random;
 
 public abstract class Maths {
 
-    public static Integer getIntPercentage(Integer full, Integer part) {
-        return part / full * 100;
-    }
+    public static Integer getIntPercentage(Integer full, Integer part) {  return part / full * 100; }
 
-    public static Float getFloatPercentage(Float full, Float part) {
-        return part / full * 100;
-    }
-
+    public static Float getFloatPercentage(Float full, Float part) { return part / full * 100; }
 
     public static String getFormat(double d) {
         return getFormat(d, 2);
@@ -64,9 +59,6 @@ public abstract class Maths {
         }
     }
 
-
-
-
     public static  boolean isDouble(Object object) {
         try {
             Double.parseDouble(object.toString());
@@ -77,9 +69,12 @@ public abstract class Maths {
     }
 
 
-
     public static int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
+    }
+
+    public static float getRandomNumber(float min, float max) {
+        return (float) ((Math.random() + (max - min)) +min);
     }
 
 
